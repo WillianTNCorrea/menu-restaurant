@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Raleway:wght@300&display=swap');
+
+.bg-red{
+    background-image: linear-gradient(to bottom right, #FF0000, #7A1111);
+    color: white;
+}
+.bg-green{
+    background-image: linear-gradient(to bottom right, #00FF00, #117A11);
+    color: white;
+}
+.bg-img{
+    padding: 0 !important;
+    background-image: url('../img/nhoque.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 584px;
+    max-height: -webkit-calc(100vh - 56px);
+    max-height: calc(100vh - 56px);
+    max-height: -moz-calc(100vh - 56px);
+}
+.bg-img-2{
+    padding: 0 !important;
+    background-image: url('../img/food.png');
+    background-repeat: repeat;
+}
+.bg-light-personal{
+    background-color: #F4EEE2;
+}
+.bg-dark-personal{
+    background-color: #C9B48A;
+}
+.btn-outline-primary{
+    color: #fefefe !important;
+    border-color: #fefefe !important;
+}
+.btn-outline-primary:hover{
+    color: #fefefe !important;
+    background-color: #7A1111 !important;
+    border-color: #7A1111 !important;
+}
+.btn-primary:hover{
+    color: #C9B48A !important;
+    background-color: transparent !important;
+    border-color: #C9B48A !important;
+}
+
+.font-22{
+    font-size: 22px !important;
+}
+.font-26{
+    font-size: 26px !important;
+}
+.light > a, .light{
+    color: #F4EEE2 !important;
+}
+.btn-primary{
+    color: #F4EEE2 !important;
+    background-color: #C9B48A !important;
+    border-color: #C9B48A !important;
+}
+.floated-msg{
+    margin: 50% auto 70% auto;
+    background-color: rgb(240, 228, 204, 0.8);
+}
+.mapa > iframe{
+
+    width: 100%;
+}
+.footer{
+    bottom: 0;
+    left: 0;
+    position: relative;
+    display: flex;
+}
+#menu-tab a{
+    color:  #DD0000 !important;
+}
